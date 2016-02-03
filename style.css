@@ -1,22 +1,36 @@
-#para1 {
-  font-weight: bold;
-}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 h2 {
   font-weight: normal;
+  font-family: "Poiret One", sans-serif;
+  color: #ff00ff;
+}
+h3 {
+  font-family: "Poiret One", sans-serif;
+  color: #008080;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 32px;
+  background-color: #71266E;
 }
 #para1 {
   font-weight: 100;
-  font-family: "Georgia",serif;
+  font-size: 2em;
+
 }
 #para2 {
   font-weight: 300;
-  font-family: sans-serif;
+
 }
 #para3{
   font-weight: 700;
-  font-family: monospace;
+
 }
 #para4 {
   font-weight: 900;
-  font-family: cursive;
+
+}
+#exercise {
+  font-size: 2em;
 }
